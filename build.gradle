@@ -26,6 +26,9 @@ kotlin {
         }
         macosTest {
         }
+        commonMain.dependencies {
+            implementation('org.jetbrains.kotlinx:kotlinx-coroutines-core-native:1.2.2')
+        }
     }
 }
 
